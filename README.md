@@ -23,31 +23,31 @@
 # Installation
 *  Clone the repository
 
-      git clone https://github.com/amalendusuresh/PolygonStake.git
+       git clone https://github.com/amalendusuresh/PolygonStake.git
 
 *  Navigate to the repository
 
-      cd cli
+       cd cli
 
 *  Install dependencies
 
-      npm install
+       npm install
 
 *  Compile the smart contracts
     
-      npx hardhat compile
+       npx hardhat compile
 
 * Deploy the contract to the desired network
 
-      npx hardhat run scripts/deploy.js --network mumbai
+       npx hardhat run scripts/deploy.js --network mumbai
 
 * Calling CLI  functions from NodeJS
 
-      node cli.js
+       node cli.js
 
 *  Liquidity 
 
-    node liquidity.js
+      node liquidity.js
 
 
 # Token Contarct
